@@ -10,3 +10,13 @@ def add(x, y):
 
 result = add(3, 4)
 print(result)
+
+#######Lambda fonc. Map() , now you see what is it.
+
+def double(x):
+    return x*2
+  
+sequence = [1, 2, 3, 4]
+
+doubled = [double(x) for x in sequence]
+doubled = list(map(double,sequence))#same
