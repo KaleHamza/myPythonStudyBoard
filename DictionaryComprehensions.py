@@ -22,3 +22,14 @@ if password_input == password:
   print("Correct")
 else:
   print("False")
+
+  
+  ##Dictionary example
+  
+def average_grade_all_students(student_list):
+  total = 0
+  count = 0
+  for student in student_list:
+    total += sum(student['grades'])
+    count += len(student['grades'])
+    
